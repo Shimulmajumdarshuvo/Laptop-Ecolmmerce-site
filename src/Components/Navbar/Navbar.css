@@ -1,0 +1,23 @@
+.navbar {
+
+    background-color: #234053;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    color: rgb(176, 243, 234);
+}
+
+.navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 36px;
+}
+
+.navbar a:hover {
+    color: aqua;
+    background-color: burlywood;
+    padding: 15px;
+}

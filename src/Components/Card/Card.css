@@ -1,0 +1,15 @@
+.card-component {
+    height: 300px;
+    border: 1px solid sandybrown;
+    border-radius: 9px;
+    padding-top: 10px;
+
+}
+
+.card-component img {
+    height: 120px;
+    width: 120px;
+    border: 1px solid darkgray;
+    border-radius: 50%;
+
+}
