@@ -1,9 +1,11 @@
 import React from 'react';
+import Chart from '../Chart/Chart';
 
 const DashBoard = () => {
     return (
         <div>
-            <h3>this is dash bord</h3>
+
+            <Chart></Chart>
 
         </div>
     );

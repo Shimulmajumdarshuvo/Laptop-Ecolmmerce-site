@@ -1,0 +1,8 @@
+.not-found {
+    text-align: center;
+    color: rgb(9, 52, 92);
+}
+
+.not-found img {
+    width: 50%;
+}

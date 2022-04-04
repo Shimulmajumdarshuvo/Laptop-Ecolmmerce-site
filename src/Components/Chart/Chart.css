@@ -1,0 +1,19 @@
+.chart {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin: 50px 100px;
+
+
+}
+
+.chart-style {
+    border: 1px solid hotpink;
+    border-radius: 10px;
+    text-shadow: 0 0 2px #4d52a0;
+    box-shadow: 0 10px 8px rgb(123, 153, 167);
+}
+
+.chart-style h2 {
+    text-align: center;
+}

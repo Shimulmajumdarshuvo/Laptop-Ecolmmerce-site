@@ -8,7 +8,7 @@ import './Home.css'
 
 const Home = () => {
 
-    const [products, setProducts] = useProducts();
+    const [products] = useProducts();
 
 
     return (
@@ -34,8 +34,10 @@ const Home = () => {
 
 
             <div>
+                <h1 className='product-size'> Customer Reviews :({products.slice(0, 3).length})</h1>
 
                 <div className="products">
+
                     {
                         products.slice(0, 3).map(product => <Card
 

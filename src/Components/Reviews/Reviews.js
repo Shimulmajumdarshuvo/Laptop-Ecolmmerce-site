@@ -4,7 +4,7 @@ import useProducts from '../Hooks/UseCart';
 import './Reviews.css'
 
 const Reviews = () => {
-    const [products, setProducts] = useProducts();
+    const [products] = useProducts();
     return (
         <div>
             <h1 className='titel-bar'>Customer Reviews:({products.length})</h1>
