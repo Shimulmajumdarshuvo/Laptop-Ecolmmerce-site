@@ -8,9 +8,10 @@ const Card = (props) => {
 
 
             <img src={img} alt="" />
-            <h6>Name:{name}</h6>
-            <p>Rating: ${ratings}</p>
+            <h4>Name:{name}</h4>
             <p>{review}</p>
+            <p> Rating: $ {ratings}</p>
+
         </div>
     );
 };
