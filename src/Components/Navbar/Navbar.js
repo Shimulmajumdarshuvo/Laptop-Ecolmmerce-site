@@ -10,7 +10,7 @@ const Navbar = () => {
                     <h2>Laptop Ecommerce site.</h2>
                 </div>
                 <div>
-                    <nav>
+                    <nav className='nav-item'>
                         <Link to='home'>Home</Link>
                         <Link to='reviews'>Reviews</Link>
                         <Link to='dashboard'>DashBoard</Link>

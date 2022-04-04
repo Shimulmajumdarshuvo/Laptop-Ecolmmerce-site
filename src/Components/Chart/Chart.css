@@ -17,3 +17,13 @@
 .chart-style h2 {
     text-align: center;
 }
+
+@media only screen and (max-width: 676px) {
+    .chart {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+
+
+    }
+}

@@ -18,6 +18,17 @@
 
 .navbar a:hover {
     color: aqua;
-    background-color: burlywood;
+
     padding: 15px;
+}
+
+@media only screen and (max-width: 676px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        padding-bottom: 15px;
+    }
+
 }

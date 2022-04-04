@@ -87,9 +87,6 @@ const Chart = () => {
                     <Bar dataKey={'sell'} fill="#8884d8" background={{ fill: '#eee' }} />
                 </BarChart>
 
-
-                s
-
             </div>
 
             <div className='chart-style'>

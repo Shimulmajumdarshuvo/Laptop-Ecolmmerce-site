@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Card from '../Card/Card';
 
 import useProducts from '../Hooks/UseCart';
@@ -49,9 +50,11 @@ const Home = () => {
 
             </div>
             <div className='btn-part'>
-                <button className='button'>
-                    See All Reviews
-                </button>
+                <Link to="/reviews">
+                    <button className='button' >
+                        See All Reviews
+                    </button>
+                </Link>
             </div>
 
         </div >
