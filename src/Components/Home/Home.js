@@ -34,9 +34,11 @@ const Home = () => {
 
 
             <div>
+
                 <div className="products">
                     {
                         products.slice(0, 3).map(product => <Card
+
                             key={product.id}
                             product={product}
                         ></Card>)
@@ -44,13 +46,13 @@ const Home = () => {
                 </div>
 
             </div>
-            <div>
-                <button>
+            <div className='btn-part'>
+                <button className='button'>
                     See All Reviews
                 </button>
             </div>
 
-        </div>
+        </div >
 
 
 
