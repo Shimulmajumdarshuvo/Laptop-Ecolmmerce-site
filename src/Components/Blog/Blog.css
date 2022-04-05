@@ -1,0 +1,12 @@
+.blog-part {
+    border: 1px solid rgb(219, 186, 163);
+    padding: 25px;
+    margin: 20px 50px;
+    border-radius: 15px;
+    color: rgb(3, 46, 39);
+}
+
+.blog-part h1 {
+    text-align: center;
+    color: rgb(15, 170, 170);
+}
